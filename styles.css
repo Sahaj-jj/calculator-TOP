@@ -1,0 +1,106 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.main {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    align-items: stretch;
+    padding: 0;
+    width: 400px;
+}
+
+.display-container {
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 140px;
+    text-align: right;
+    border-radius: 15px 15px 0 0;
+    color: blanchedalmond;
+    font-weight: 1;
+}
+
+.display {
+    font-size: 72px;
+    padding: 0 30px 0 0;
+}
+
+.operator-display {
+    height: 35px;
+    font-size: 25px;
+    padding: 5px 40px;
+}
+
+.keys-container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 500px;
+    margin: 0;
+    align-items: stretch;
+    border-radius: 0 0 15px 15px;
+    background-color: black;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    flex: 3;
+    border-radius: 0 0 0 15px;
+}
+
+.util-block {
+    display: flex;
+    flex: 1;
+}
+
+.operation-block {
+    flex: 1;
+    border-radius: 0 0 15px 0;
+}
+
+.number-block {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.key {
+    height: 100px;
+    width: 100px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition: all 0.2s;
+    transition-timing-function: cubic-bezier(0, 1.33, 0.87, 0.84);
+    
+}
+
+.key.clicked {
+
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: rgba(200, 200, 200, 0.1);
+}
+
+.util-block .key {
+    font-size: 30px;
+    color: rgb(46, 154, 255);
+}
+
+.operation-block .key {
+    color: rgb(255, 99, 43);
+}
+
+.key.eql {
+    background-color: rgb(255, 99, 43);
+    color: white;
+    border-radius: 0 0 15px 0;
+}
