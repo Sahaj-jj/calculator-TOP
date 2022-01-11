@@ -1,3 +1,3 @@
 # simple-calculator
 
-[Live Demo](https://sahaj-jj.github.io/calculator-TOP/)
+[Live Demo](https://sahaj-jj.github.io/simple-calculator/)
